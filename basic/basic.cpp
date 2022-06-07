@@ -1,9 +1,11 @@
-// my first c++ code  
-// it is obviously used to write comments
-#include<iostream>  //it is header file here we don't use .h
+//write a c++ program to add two numbers and display the sum of these numbers
+#include<iostream>
 using namespace std;
-  int main ()
-{   //beginning of function body
-    cout << "Programming is intresting";  //here cout is the standard output stream
-    return 0;
-}   // end of function body
+int main()
+{
+    int a,b,c;
+    a=10;
+    b=2;
+    c=a+b;
+    cout<<" the sum of"<<a<<"and"<<b<<"is"<<c;
+}
